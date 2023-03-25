@@ -1,0 +1,14 @@
+[package]
+name = "back"
+version.workspace = true
+edition.workspace = true
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+axum = "0.6.11"
+tokio = { version = "1.26.0", features = ["full"] }
+serde = { version = "1.0.152", features = ["derive"] }
+chrono = { version = "0.4.23", features = ["serde"] }
+surrealdb = "1.0.0-beta.8"
+util = { path = "../util" }

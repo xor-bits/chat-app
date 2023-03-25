@@ -1,0 +1,21 @@
+[package]
+name = "front"
+version = "0.1.0"
+edition = "2021"
+# forced-target = "wasm32-unknown-unknown"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+console_error_panic_hook = "0.1.7"
+console_log = "1.0.0"
+# dioxus = "0.3.2"
+# dioxus-web = "0.3.1"
+
+[dependencies.dioxus]
+git = "https://github.com/DioxusLabs/dioxus"
+rev = "46cc07e04827f8ea63bd210eaf6b72727441b6bf"
+
+[dependencies.dioxus-web]
+git = "https://github.com/DioxusLabs/dioxus"
+rev = "46cc07e04827f8ea63bd210eaf6b72727441b6bf"
