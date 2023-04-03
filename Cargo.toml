@@ -1,7 +1,7 @@
 # cargo-features = ["per-package-target"]
 
 [workspace]
-members = ["util", "front", "back", "cli"]
+members = ["util", "back", "cli"] # "front", 
 
 [workspace.package]
 version = "0.1.0"
